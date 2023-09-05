@@ -1,0 +1,70 @@
+.work-experience {
+  background: $color-secondary-light;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  color: $color-white;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+
+  @include respond(tab-port) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 1fr;
+    padding: 1rem 0;
+    border-bottom: 1px solid $color-white;
+
+    @include respond(tab-port) {
+      border-bottom: none;
+      padding: 1rem 6rem;
+      width: 50%;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &--company {
+      font-size: $medium-font-size;
+      color: $color-primary;
+
+      @include respond(tab-port) {
+        font-size: $large-font-size;
+      }
+    }
+
+    &--period {
+      font-size: $default-font-size;
+      font-weight: $font-weight-bold;
+
+      @include respond(tab-port) {
+        font-size: $medium-font-size;
+      }
+    }
+
+    &--position {
+      font-size: $default-font-size;
+      font-weight: $font-weight-medium;
+      color: $color-gray;
+      margin-bottom: 1rem;
+
+      @include respond(tab-port) {
+        font-size: $medium-font-size;
+      }
+    }
+
+    &--description {
+      @include respond(tab-port) {
+        font-size: $default-font-size;
+      }
+    }
+  }
+}

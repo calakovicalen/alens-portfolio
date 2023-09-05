@@ -1,0 +1,23 @@
+{
+  "header": {
+    "h1": "Dobrodošli!",
+    "introduction": "Ja sam ",
+    "name": "Alen Čalaković",
+    "paragraph": "Živim u Srbiji i bavim se front-end developmentom, imam veliku strast da pravim web aplikacije sa kojim će moji korisnici biti zadovoljni.",
+    "button": "Kontaktirajte me"
+  },
+  "form": {
+    "h2": "Kontakt",
+    "paragraph": "Voleo bi da čujem o vašim projektima i da vidim kako bi mogao da vam pomognem. Molim vas popunite formu što pre budete mogli.",
+    "form-name": "Molim vas unesite pravilno ime.",
+    "form-email": "Molim vas unesite pravilno email.",
+    "form-message": "Molim vas napišite neku poruku.",
+    "button": "pošalji poruku",
+    "name": "ime",
+    "message": "poruka"
+  },
+  "projectItem": {
+    "viewProject": "Poseti stranicu",
+    "viewCode": "Pogledaj kod"
+  }
+}

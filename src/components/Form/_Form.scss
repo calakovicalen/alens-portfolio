@@ -1,0 +1,80 @@
+.form-container {
+  color: $color-white;
+  background: $color-secondary-light;
+  text-align: center;
+  padding: 6rem 1.6rem;
+  margin-top: 6rem;
+
+  @include respond(tab-port) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__heading {
+    @include respond(tab-port) {
+      width: 30%;
+    }
+
+    h2 {
+      font-weight: $font-weight-bold;
+      font-size: $large-font-size;
+      margin-bottom: 2rem;
+
+      @include respond(tab-port) {
+        font-size: $large-font-size + 2rem;
+        text-align: left;
+      }
+    }
+
+    p {
+      color: $color-gray;
+      font-weight: $font-weight-medium;
+      font-size: $default-font-size;
+      margin-bottom: 5rem;
+
+      @include respond(tab-port) {
+        font-size: $medium-font-size;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+  border-bottom: 2px solid $color-gray;
+
+  @include respond(tab-port) {
+    width: 50%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &__input {
+    @include input-style;
+  }
+
+  &__textarea {
+    @include input-style;
+    resize: none;
+  }
+
+  &__label {
+    color: $color-red;
+    font-size: $default-font-size;
+  }
+
+  button {
+    margin-top: 3.2rem;
+    margin-left: auto;
+  }
+}
+
+.label-placeholder {
+  height: $default-font-size;
+  text-align: right;
+}

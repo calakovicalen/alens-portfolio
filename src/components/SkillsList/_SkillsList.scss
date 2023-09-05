@@ -1,0 +1,46 @@
+.skill-list {
+  margin: 1rem 1.6rem;
+  padding: 4rem 0rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  text-align: center;
+  border-top: 1px solid $color-white;
+  border-bottom: 1px solid $color-white;
+
+  @include respond(tab-port) {
+    flex-direction: row;
+    gap: 4rem;
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    h3 {
+      color: $color-white;
+      font-size: 3.2rem;
+      font-weight: 700;
+
+      @include respond(tab-port) {
+        font-size: $large-font-size + 1rem;
+      }
+    }
+
+    p {
+      color: $color-gray;
+      font-size: $default-font-size;
+      font-weight: 400;
+
+      @include respond(tab-port) {
+        font-size: $medium-font-size;
+      }
+    }
+  }
+}

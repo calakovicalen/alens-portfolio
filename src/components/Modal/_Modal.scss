@@ -1,0 +1,43 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: transparentize($color-secondary, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    padding: 3rem 3rem;
+    background-color: $color-white;
+    border-radius: 1rem;
+
+    h3 {
+      color: $color-secondary-light;
+      font-size: $medium-font-size;
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+
+      @include respond(tab-port) {
+        font-size: $large-font-size;
+      }
+    }
+
+    p {
+      color: $color-secondary;
+      margin-bottom: 1rem;
+      text-align: left;
+
+      &:last-child {
+        margin-top: 5rem;
+        text-align: center;
+      }
+
+      @include respond(tab-port) {
+        font-size: $medium-font-size;
+      }
+    }
+  }
+}

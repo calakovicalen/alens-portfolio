@@ -1,0 +1,25 @@
+.lang-menu {
+  position: absolute;
+  bottom: -8rem;
+  right: 0;
+  background: $color-white;
+  border-radius: 5px;
+  flex-direction: column;
+  gap: 0;
+  z-index: 999;
+  color: $color-secondary;
+  overflow: hidden;
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 1rem 5rem;
+    width: 100%;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+}

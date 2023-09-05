@@ -1,0 +1,23 @@
+.projects-list {
+  color: $color-white;
+  margin: 0 1.6rem;
+
+  h2 {
+    font-weight: $font-weight-bold;
+    font-size: $large-font-size;
+    margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+      font-size: $large-font-size + 2rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}

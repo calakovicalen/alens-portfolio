@@ -1,0 +1,14 @@
+@import "sass/variables";
+@import "sass/mixins";
+@import "sass/base";
+
+@import "components/NavBar/NavBar";
+@import "components/NavBar/LangMenu";
+@import "components/Header/Header";
+@import "components/Button/Button";
+@import "components/SkillsList/SkillsList";
+@import "components/ProjectsList/ProjectsList";
+@import "components/ProjectsList/ProjectItem";
+@import "components/Form/Form";
+@import "components/Modal/Modal";
+@import "components/WorkExperience/WorkExperience";

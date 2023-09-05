@@ -1,0 +1,23 @@
+{
+  "header": {
+    "h1": "Nice to meet you!",
+    "introduction": "I'm ",
+    "name": "Alen Calakovic",
+    "paragraph": "Based in Serbia, I'm a front-end developer passionate about building accessible web apps that users love.",
+    "button": "Contact Me"
+  },
+  "form": {
+    "h2": "Contact",
+    "paragraph": "I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.",
+    "form-name": "Please enter name correctly.",
+    "form-email": "Please enter correct email.",
+    "form-message": "Please write some message.",
+    "button": "send message",
+    "name": "name",
+    "message": "message"
+  },
+  "projectItem": {
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  }
+}
